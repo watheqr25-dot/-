@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>متجري البسيط</title>
+  <style>
+    body { font-family: Tahoma, sans-serif; text-align: center; background: #f9f9f9; }
+    h1 { color: #333; }
+    .product {
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      display: inline-block;
+      margin: 10px;
+      padding: 15px;
+      background: #fff;
+      width: 200px;
+    }
+    img { width: 100%; border-radius: 8px; }
+    button {
+      background: #4CAF50; color: white; border: none;
+      padding: 10px; margin-top: 10px; cursor: pointer; border-radius: 5px;
+    }
+    button:hover { background: #45a049; }
+  </style>
+</head>
+<body>
+
+  <h1>🌟 مرحبًا بك في متجري</h1>
+
+  <div class="product">
+    <img src="https://via.placeholder.com/200" alt="منتج 1">
+    <h3>منتج 1</h3>
+    <p>سعر: 20$</p>
+    <a href="https://wa.me/201234567890?text=أريد%20شراء%20منتج%201">
+      <button>اطلب عبر واتساب</button>
+    </a>
+  </div>
+
+  <div class="product">
+    <img src="https://via.placeholder.com/200" alt="منتج 2">
+    <h3>منتج 2</h3>
+    <p>سعر: 35$</p>
+    <a href="https://wa.me/201234567890?text=أريد%20شراء%20منتج%202">
+      <button>اطلب عبر واتساب</button>
+    </a>
+  </div>
+
+</body>
+</html>
